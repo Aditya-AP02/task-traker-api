@@ -1,0 +1,9 @@
+node_modules
+.env
+*.log
+tempCodeRunnerFile.python
+test-db.js
+verify-api.js
+frontend/node_modules
+frontend/dist
+.DS_Store

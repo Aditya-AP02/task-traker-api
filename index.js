@@ -4,7 +4,7 @@ const taskRoutes = require('./routes/tasks');
 
 const app = express();
 app.use(cors()); // Enable CORS for all origins
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
