@@ -1,4 +1,0 @@
-def show():
-    x=20
-    print("local variable,x")
-  show()
